@@ -24,6 +24,8 @@ def main_prompt(text_string):
             3. Start each bullet point with a strong action verb. Prioritize impactful and dynamic verbs that emphasize achievements and skills.
             4. Use relevant keywords throughout the bullet point to optimize for Applicant Tracking Systems (ATS).
             5. If necessary, break down the provided text into multiple bullet points to ensure conciseness and clarity.
+            6. Ensure the bullet point sequence should be Result - Action - Context like:
+            Increased plant efficiency by 10% by spearheading the extruder upgrade project execution in a Polyethylene plant.
             
             Here's an example of the text that user will provide:
             'Led a team of five engineers in developing a new machine learning algorithm that improved customer conversion rates by 15% within six months by analyzing user behavior patterns.'

@@ -7,7 +7,29 @@ import re
 import pandas as pd
 
 # Set page config as the first Streamlit command
-st.set_page_config(page_title="CV Bullet Points Creator", page_icon="📄")
+st.set_page_config(page_title="CV Bullet Points Creator", page_icon="📄", layout = "wide")
+
+# Custom CSS to improve the look and feel
+st.markdown(
+    """
+    <style>
+        .stTextInput > div > div > input {
+            background-color: #f0f2f6;
+        }
+        .stTextArea > div > div > textarea {
+            background-color: #f0f2f6;
+        }
+        .stButton>button {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .stButton>button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 col1, col2 = st.columns([1, 4])

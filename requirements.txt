@@ -3,5 +3,7 @@ cohere
 python-dotenv
 PyPDF2
 Pillow
-transformers
-torch
+langchain-groq
+langchain-core
+langchain
+langchain-community

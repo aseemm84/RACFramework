@@ -7,4 +7,3 @@ langchain-groq
 langchain-core
 langchain
 langchain-community
-langchain_chains
